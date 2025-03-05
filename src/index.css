@@ -1,13 +1,108 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #1d1d2a;
+  font-family: Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.id_form {
+  color: white;
+}
+
+.b {
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  justify-content: center;
+  background-color: #242636;
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+  height:385px;
+  width: 600px;
+
+}
+
+.button-registro {
+  background-color: #0277fb;
+  border-color: transparent;
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 500;
+  margin-left: 450px;
+  margin-top: -10px;
+}
+
+.button-registro:hover {
+  background-color: #0266d9;
+}
+
+.doctor-info {
+  justify-content: center;
+  background-color: #242636;
+  width: 220px;
+  max-width: 350px;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.main-contenedor {
+  margin-top: 120px;
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#logo{
+  width: 40px;
+  height: 40px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-forms{
+  background-color: white;
+  color: black;
+  width: 150px;
+  height: 30px;
+  border-color: #242636;
+  border-width: 1;
+  border-radius: 10px;
+  margin-left: 10px;
+  border-color: transparent;
+
+}
+
+.page-title{
+  color: white;
+  position: relative;
+  top: 90px;
+  left: 240px;
+  font-size: 40px;
+}
+
+#doctor-nombre{
+  font-size: 18px;
+}
+
+#doctor-puesto{
+  font-size: 13px;
+}
+
+#horario{
+  color: #0277fb;
+  margin-top: 30px;
+}
+
+#h{
+  margin-bottom: 0px;
 }
